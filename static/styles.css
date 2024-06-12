@@ -1,0 +1,47 @@
+/* Getting my font */
+@font-face {
+    font-family: 'Montserrat'; 
+    src: url('fonts/Montserrat-Regular.ttf'); /* Update the path to where your font file is located */
+}
+
+/* Body Stylings | Base format for page */
+body {
+    margin: 0;
+
+    background-color: rgb(230, 237, 235);
+    font-family: 'Montserrat';
+}
+
+/* Nav Bar Content */
+nav {
+    /* Formatting */
+    width: 100%; 
+    height: 60px; 
+    top: 0; 
+
+    /* Stylings */
+    background-color: rgb(149, 191, 179);
+    border-bottom: 3px solid rgb(0, 94, 80);
+
+    font-weight: 800;
+    font-size: x-large;
+
+    /* Vertical & Horizontal Center */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+/* Setting all nav elements to be even spaced */
+nav > * {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 94, 80);
+}
+nav a:hover {
+    text-decoration: underline;
+    color: rgb(0, 140, 119);
+}
