@@ -45,3 +45,23 @@ nav a:hover {
     text-decoration: underline;
     color: rgb(0, 140, 119);
 }
+
+/* Downloads Section */
+.app-downloads {
+    width: 50%;
+    float: right;
+}
+
+.app-download-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.app-download-item > * {
+    margin-left: auto;
+    margin-right: auto;
+}
+.app-download-item button {
+    background-color: rgb(96, 197, 168);
+}
