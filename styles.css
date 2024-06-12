@@ -24,6 +24,9 @@ nav {
     background-color: rgb(149, 191, 179);
     border-bottom: 1px solid rgb(0, 0, 0);
 
+    font-weight: 600;
+    font-size: x-large;
+
     /* Vertical Center */
     display: flex;
     align-items: center;
@@ -31,6 +34,11 @@ nav {
 
 /* Nav Items */
 .left-nav-item {
-    margin: 2%;
-    display: inline-block; /* Adjusted to display items inline */
+    margin: 1.6%;
+    /*display: inline-block; */
+    text-align: left;
+}
+.right-nav-item {
+    margin: 1.6%;
+    text-align: right;
 }
