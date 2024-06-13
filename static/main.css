@@ -12,6 +12,15 @@ body {
     font-family: 'Montserrat';
 }
 
+a {
+    text-decoration: none;
+    color: rgb(15, 150, 87);
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(0, 140, 119);
+}
+
 /* Nav Bar Content */
 nav {
     /* Formatting */
@@ -37,6 +46,7 @@ nav > * {
     margin-right: auto;
 }
 
+/* Formatting the anchor tags */
 nav a {
     text-decoration: none;
     color: rgb(0, 94, 80);
@@ -44,24 +54,4 @@ nav a {
 nav a:hover {
     text-decoration: underline;
     color: rgb(0, 140, 119);
-}
-
-/* Downloads Section */
-.app-downloads {
-    width: 50%;
-    float: right;
-}
-
-.app-download-item {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-}
-.app-download-item > * {
-    margin-left: auto;
-    margin-right: auto;
-}
-.app-download-item button {
-    background-color: rgb(96, 197, 168);
 }
